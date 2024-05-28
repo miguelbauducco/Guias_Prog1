@@ -46,6 +46,7 @@ namespace Controldeacceso
             return valorBase;
         }
 
+
         static double Porc(int cantDias, double valorBase)
         {
             double porcentaje = 0;
