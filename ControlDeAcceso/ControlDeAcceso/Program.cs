@@ -161,9 +161,11 @@ namespace Guia8
                     Console.WriteLine("\nLISTA DE ALUMNOS ORDENADA: \n");
                     for (int i = 0; i < nroLibretaProm.Length; i++)
                     {
-
+                        Console.WriteLine("\nNro de libreta:\n");
                         Console.WriteLine(nroLibreta[i]);
+                        Console.WriteLine("\nNombre:\n");
                         Console.WriteLine(alumnosProm[i]);
+                        Console.WriteLine("\nNota:\n");
                         Console.WriteLine(notasProm[i]);
 
                         if (notasProm[i] > mayor)
